@@ -16,7 +16,7 @@ public class GenerarInformePDF {
     public static void main(String[] args) {
         try {
             // Cargar el diseño del informe desde un archivo .jrxml
-            JasperDesign jasperDesign = JRXmlLoader.load("src/main/resources/ejercicio1(2).jrxml");
+            JasperDesign jasperDesign = JRXmlLoader.load("src/main/resources/plantillareporte.jrxml");
 
             // Crear una lista de Miembros de los Simpsons
             List<MiembroSimpson> miembros = new ArrayList<>();

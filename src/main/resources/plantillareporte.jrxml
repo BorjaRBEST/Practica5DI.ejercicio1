@@ -102,7 +102,7 @@
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="525" splitType="Stretch">
+		<band height="560" splitType="Stretch">
 			<staticText>
 				<reportElement x="118" y="42" width="152" height="30" uuid="4e8ce872-0d36-4b83-9648-4a855f6a9aa7"/>
 				<textElement>
@@ -231,6 +231,10 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
 			</textField>
+			<image>
+				<reportElement x="380" y="350" width="140" height="200" uuid="fbc40564-89c1-4154-8d31-66a4e8a621e6"/>
+				<imageExpression><![CDATA["https://i.pinimg.com/originals/c0/fb/47/c0fb47470b269dc2023e50bf1f5b9cdc.png"]]></imageExpression>
+			</image>
 		</band>
 	</detail>
 	<pageFooter>
